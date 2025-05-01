@@ -1,0 +1,28 @@
+mkdir -p ~/videos
+cd ~/videos
+
+
+
+# Normal State - Blue Video
+ffmpeg -f lavfi -i color=c=blue:s=640x480:d=10 -c:v libx264 normal.mp4
+
+# Dry state - red video
+ffmpeg -f lavfi -i color=c=red:s=640x480:d=10 -c:v libx264 dry.mp4
+
+# Wet State - Green Video
+ffmpeg -f lavfi -i color=c=green:s=640x480:d=10 -c:v libx264 wet.mp4
+
+# Low Light - Black Video
+ffmpeg -f lavfi -i color=c=black:s=640x480:d=10 -c:v libx264 dark.mp4
+
+# Too Much Light - Yellow Video
+ffmpeg -f lavfi -i color=c=yellow:s=640x480:d=10 -c:v libx264 bright.mp4
+
+# High Temperature - Orange Video
+ffmpeg -f lavfi -i color=c=orange:s=640x480:d=10 -c:v libx264 hot.mp4
+
+# Low Temperature - Green Video
+ffmpeg -f lavfi -i color=c=cyan:s=640x480:d=10 -c:v libx264 cold.mp4
+
+# High Humidity - Purple Video
+ffmpeg -f lavfi -i color=c=purple:s=640x480:d=10 -c:v libx264 humid.mp4
