@@ -2,9 +2,9 @@
 # Instructions
 0. **Download** this model from this link https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
 
-```
-tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf 
-```
+   ```
+      tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf 
+   ```
 
    place it in "ai_chat/" or the same directory as chatbot.py
 
@@ -12,7 +12,7 @@ tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 
 2. **Navigate to the project folder:**
     ```
-   cd ~/Desktop/ai_chat/
+      cd ~/Desktop/ai_chat/
     ```
 3. **Activate the virtual enviroment:**
 
