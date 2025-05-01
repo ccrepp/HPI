@@ -21,9 +21,9 @@ We must activate the virtual enviroment which contains the neccessary libraries 
 
 Enter
 
-    ```
+    
     cd ~/Desktop/ai_chat/
-    ```
+    
 
 3. **Check virtual enviroment activation:**
 Your terminal command line should look like this after
@@ -55,8 +55,12 @@ Ensure you are in the directory of your choice, preferably in the same one as th
 
 In your terminal, enter:
 
+```
 python3 -m venv venv_name --system-site-packages
 source venv_name/bin/activate
 pip install llama-cpp-python
-
+```
 After that, proceed to run chatbot.py
+```
+python3 chatbot.py
+```
