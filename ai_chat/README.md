@@ -22,7 +22,7 @@ We must activate the virtual enviroment which contains the neccessary libraries 
 Enter
 
     
-    cd ~/Desktop/ai_chat/
+    cd ~/~/ai_chat/
     
 
 3. **Check virtual enviroment activation:**
