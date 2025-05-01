@@ -29,6 +29,6 @@ The following details the dependencies that may be required to run the software
 - gTTS
 - numpy
 
-  ### Chatbot
+### Chatbot
 - llama-cpp-python (Explained)
 - For ai_chat instructions, [Click here](https://github.com/ccrepp/HPI/blob/main/ai_chat/README.md)
