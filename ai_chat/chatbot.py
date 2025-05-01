@@ -4,7 +4,7 @@ os.environ["LLAMA_CPP_LOG_LEVEL"] = "ERROR"
 
 # Load the model
 llm = Llama(
-    model_path="/home/pi/Desktop/ai_chat/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+    model_path = os.path.join(os.path.dirname(__file__),"tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"),
     n_ctx=128,
     n_threads=1,
     n_batch=16
